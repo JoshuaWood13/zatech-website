@@ -1,0 +1,58 @@
+.report-form-card {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 16px;
+  padding: 28px 24px;
+}
+
+.report-form h2 {
+  margin: 0 0 8px 0;
+  color: #1a1a1a;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.report-form > p {
+  margin: 0 0 28px 0;
+  color: #6b7280;
+}
+
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-weight: 700; color: #1f2937; margin-bottom: 8px; text-align: left; font-size: 1.05rem; }
+.report-type-select { max-width: 420px; display: block; margin: 0 auto 0 0; }
+.report-type-select { font-family: inherit; }
+.report-type-select:invalid { color: #9ca3af; }
+.report-type-select option { color: #111827; }
+
+.report-description {
+  padding: 12px 14px;
+  box-sizing: border-box;
+  resize: none;
+  overflow: hidden;
+  font-family: inherit;
+}
+.report-description::placeholder { color: #9ca3af; font-size: 1rem; font-family: inherit; }
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 1rem;
+  color: #111827;
+  background: #ffffff;
+}
+.form-group select:focus,
+.form-group textarea:focus { outline: none; border-color: #60a5fa; box-shadow: 0 0 0 3px rgba(96,165,250,0.2); }
+.char-count { display: block; margin-top: 0px; color: #6b7280; text-align: right; }
+.message { margin: 12px 0 16px 0; padding: 12px 14px; border-radius: 12px; font-size: 0.95rem; }
+.message.success { background: #ecfdf5; color: #065f46; border: 1px solid #a7f3d0; }
+.message.error { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+.field-error { margin-top: 6px; color: #b91c1c; font-size: 0.9rem; }
+.submit-btn { padding: 18px 26px; background: #1a1a1a; color: #ffffff; border: none; border-radius: 12px; font-size: 1.2rem; font-weight: 600; cursor: pointer; }
+.submit-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.privacy-notice { margin-top: 20px; text-align: center; }
+.privacy-notice p { font-size: 0.9rem; color: #4b5563; font-style: italic; margin: 0 0 6px 0; }
+.privacy-link { font-size: 0.9rem; color: #1a1a1a; text-decoration: underline; }
+

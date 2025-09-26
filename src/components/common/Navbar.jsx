@@ -8,3 +8,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+// Add <Link to="/sponsorship">Sponsorship</Link> to finished navbar
